@@ -3,10 +3,396 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Bootswatch: Sandstone</title>
+    <title>Main Page - WalaWiki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="../4/sandstone/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="../_assets/css/custom.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </head>
+
+<body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <a href="../" class="navbar-brand">ARTICLE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">CONTENTS<span
+                                class="caret"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="themes">
+                            <a class="dropdown-item" href="../default/">Core WALA Features</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../cerulean/">WALA Tools in JavaScript</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../cosmo/">WALA-Based Tools</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../cyborg/">About this Wiki</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../cyborg/">Acknoledgments</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../help/">DISCUSSION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../help/">VIEW SOURCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blog.bootswatch.com">HISTORY</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container clearfix" style="min-width: 80%; margin-top: 80px;">
+        <div class="row">
+            <div class="col-12">
+                <section style="background-image: url(img/Banner.jpg); min-height: 300px; background-size: cover;">
+                    <h1 style="color: white; position:absolute; top: 6rem; text-align: center; min-width: 100%;">
+                        WALA
+                    </h1>
+                    <h4 style="color: white; position:absolute; top: 10rem; text-align: center; min-width: 100%;">
+                        T.J. WATSON LIBRARIES FOR ANALYSIS
+                    </h4>
+                </section>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="jumbotron">
+                            <h2>Welcome to the T.J. Watson Libraries for Analysis (WALA)</h2>
+                            <hr class="my-4">
+                            <p>The T. J. Watson Libraries for Analysis (WALA) provide static analysis capabilities for
+                                Java
+                                bytecode and related languages and for JavaScript. The system is licensed under the <a
+                                    href="http://www.eclipse.org/legal/epl-v10.html" class='external text'
+                                    title="http://www.eclipse.org/legal/epl-v10.html" rel="nofollow">Eclipse Public
+                                    License</a>,
+                                which has been approved by the <a href="http://www.opensource.org/"
+                                    class='external text' title="http://www.opensource.org/" rel="nofollow">OSI</a>
+                                (Open Source Initiative) as a
+                                fully certified open source license. The initial WALA infrastructure was independently
+                                developed
+                                as part of the DOMO research project at the <a href="http://www.research.ibm.com/"
+                                    class='external text' title="http://www.research.ibm.com/" rel="nofollow">IBM T.J.
+                                    Watson
+                                    Research Center</a>. In 2006, <a href="http://www.ibm.com/us/" class='external text'
+                                    title="http://www.ibm.com/us/" rel="nofollow">IBM</a> donated the software to the
+                                community.
+                            </p>
+                            <p>For recent updates on WALA, join the <a href="http://sourceforge.net/p/wala/mailman/"
+                                    class='external text' title="http://sourceforge.net/p/wala/mailman/"
+                                    rel="nofollow">mailing
+                                    list</a>, or follow WALA on <a href="https://twitter.com/WALALibs"
+                                    class='external text' title="https://twitter.com/WALALibs"
+                                    rel="nofollow">Twitter</a> or <a
+                                    href="https://plus.google.com/117805259258761505726/posts" class='external text'
+                                    title="https://plus.google.com/117805259258761505726/posts"
+                                    rel="nofollow">Google+</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="min-height: 300px;">
+                    <div class="col-12">
+                        <div class="tab-bar">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#wala_core_features">WALA CORE
+                                        FEATURES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#wala_tools_in_javascript">WALA TOOLS IN
+                                        JAVASCRIPT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#wala_based_tools">WALA-BASED TOOLS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#about_this_wiki">ABOUT THIS WIKI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#acknowlegements">ACKNOWLEDGEMENTS</a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade active show" id="wala_core_features">
+                                    <div class="jumbotron-block">
+                                        <div class="container" style="margin: 0px; padding-left: 3rem;">
+                                            <ul>
+                                                <li>
+                                                    Java type system and class hierarchy analysis
+                                                </li>
+                                                <li>
+                                                    Source language framework supporting Java and JavaScript
+                                                </li>
+                                                <li>
+                                                    Interprocedural dataflow analysis (<a
+                                                        href="http://www.cs.wisc.edu/~reps/#popl95"
+                                                        class='external text'
+                                                        title="http://www.cs.wisc.edu/~reps/#popl95"
+                                                        rel="nofollow">RHS</a>
+                                                    solver)
+                                                </li>
+                                                <li>
+                                                    Context-sensitive tabulation-based slicer
+                                                </li>
+                                                <li>
+                                                    Pointer analysis and call graph construction
+                                                </li>
+                                                <li>
+                                                    SSA-based register-transfer language IR
+                                                </li>
+                                                <li>
+                                                    General framework for iterative dataflow
+                                                </li>
+                                                <li>
+                                                    General analysis utilities and data structures
+                                                </li>
+                                                <li>
+                                                    A bytecode instrumentation library (<a
+                                                        href="/wiki/index.php/Shrike_technical_overview"
+                                                        title="Shrike technical overview">Shrike</a>) and a dynamic
+                                                    load-time
+                                                    instrumentation
+                                                    library for Java (<a href="/wiki/index.php/GettingStarted:wala.dila"
+                                                        title="GettingStarted:wala.dila">Dila</a>)
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="wala_tools_in_javascript">
+                                    <div class="jumbotron-block">
+                                        <P>
+                                            Recently, we have been expanding the set of WALA tools implemented in
+                                            JavaScript. We have
+                                            released a normalizer and some basic program analyses for JavaScript in the
+                                            <a href="https://github.com/wala/JS_WALA" class='external text'
+                                                title="https://github.com/wala/JS_WALA" rel="nofollow">JS_WALA GitHub
+                                                repository</a>. We
+                                            have also made available <a href="https://github.com/wala/WALADelta"
+                                                class='external text' title="https://github.com/wala/WALADelta"
+                                                rel="nofollow">WALA Delta</a>, a delta
+                                            debugger
+                                            for JavaScript-processing tools. Please see the linked GitHub repositories
+                                            for
+                                            further
+                                            details
+                                            on these tools.
+                                        </P>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="wala_based_tools">
+                                    <div class="jumbotron-block">
+                                        <p>Several groups have built open-source tools that enhance or build on WALA
+                                            that
+                                            may be useful
+                                            to
+                                            other WALA users. For details, see the <a
+                                                href="https://github.com/wala/WALA/wiki/WALA-Based-Tools"
+                                                class='external text'
+                                                title="https://github.com/wala/WALA/wiki/WALA-Based-Tools"
+                                                rel="nofollow">Wala-based
+                                                tools</a> page.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade" id="about_this_wiki">
+                                    <div class="jumbotron-block">
+                                        <p>We're hosting all documentation for WALA on this wiki. <b>We've chosen a wiki
+                                                format just so
+                                                that
+                                                <i>you</i> can contribute</b>. Don't be shy!
+                                        </p>
+                                        <p>You must <a
+                                                href="http://wala.sourceforge.net/wiki/index.php?title=Special:Userlogin&amp;returnto=Special:Userlogout"
+                                                class='external text'
+                                                title="http://wala.sourceforge.net/wiki/index.php?title=Special:Userlogin&amp;returnto=Special:Userlogout"
+                                                rel="nofollow">log in</a> to edit pages.
+                                        </p>
+                                        <p>The WALA publications department is populating this wiki with technical
+                                            documentation on a
+                                            demand-driven basis, driven by questions posted to the <a
+                                                href="http://sourceforge.net/p/wala/mailman/" class='external text'
+                                                title="http://sourceforge.net/p/wala/mailman/"
+                                                rel="nofollow">wala-wala</a>
+                                            mailing
+                                            list. We
+                                            recommend <a
+                                                href="https://groups.google.com/forum/#!forum/wala-sourceforge-net"
+                                                class='external text'
+                                                title="https://groups.google.com/forum/#!forum/wala-sourceforge-net"
+                                                rel="nofollow">this
+                                                page</a> for searching the mailing list archives.
+                                        </p>
+                                        <p>Currently, we have the <a href="http://wala.sourceforge.net/javadocs"
+                                                class='external text' title="http://wala.sourceforge.net/javadocs"
+                                                rel="nofollow">JavaDoc documentation for
+                                                the
+                                                WALA code</a> being uploaded once per day. If you think a particular
+                                            file
+                                            deserves
+                                            better
+                                            javadoc, please <a href="https://github.com/wala/WALA/issues"
+                                                class='external text' title="https://github.com/wala/WALA/issues"
+                                                rel="nofollow">open a feature request</a>.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="acknowlegements">
+                                    <div class="jumbotron-block">
+                                        <p><img src="https://www.yourkit.com/images/yklogo.png" alt="yklogo.png" />
+                                        </p>
+                                        <p>We thank <a href="https://www.yourkit.com" class='external text'
+                                                title="https://www.yourkit.com" rel="nofollow">YourKit</a> for providing
+                                            WALA developers
+                                            with a complimentary license for
+                                            their excellent <a href="https://www.yourkit.com/java/profiler/"
+                                                class='external text' title="https://www.yourkit.com/java/profiler/"
+                                                rel="nofollow">Java profiler</a>, used to
+                                            improve WALA performance.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer" style="background-color: rgb(38, 38, 38); padding-top: 20px;">
+        <div class="container text-center text-md-left mt-5">
+            <div class="row mt-3">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Resources</strong>
+                    </h6>
+                    <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="/wiki/index.php/User_Guide">User Guide</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Tutorials">Tutorials</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/wala/WALA/wiki/Getting-Started">Getting Started</a>
+                    </p>
+                    <p>
+                        <a href="http://wala.sourceforge.net/javadocs">Javadoc</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Publications">Publications</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Special:Recentchanges">Recent Changes</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>DEVELOPER INFORMATION</strong>
+                    </h6>
+                    <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="/wiki/index.php/Contributing">Contributing</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Support">Support</a>
+                    </p>
+                    <p>
+                        <a href="http://sourceforge.net/p/wala/mailman/">Mailing lists</a>
+                    </p>
+                    <p>
+                        <a href="https://groups.google.com/forum/#!forum/wala-sourceforge-net">Search list
+                            archives</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Regression">Regression tests</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/wala/WALA">Browse repository</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Toolbox</strong>
+                    </h6>
+                    <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="/wiki/index.php/Special:Whatlinkshere/Main_Page">What links
+                            here</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Special:Recentchangeslinked/Main_Page">Related
+                            changes</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Special:Upload">Upload file</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php/Special:Specialpages">Special pages</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php?title=Main_Page&amp;printable=yes">Printable
+                            version</a>
+                    </p>
+                    <p>
+                        <a href="/wiki/index.php?title=Main_Page&amp;oldid=3142">Permanent link</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>PROJECT INFORMATION</strong>
+                    </h6>
+                    <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="/wiki/index.php/Main_Page">Main Page</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/wala/WALA">GitHub Page</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright
+          </div>
+        <!-- <div class="footer-copyright py-3">
+            <ul id="f-list" style="float: left;">
+                <li id="lastmod" style="float: left;text-align: center;"> This page was last modified 09:09, 28 August
+                    2019.</li>
+                <li style="min-width: 30px; float: left;"></li>
+                <li id="viewcount" style="float: left; text-align: center;">This page has been accessed 477,904 times.
+                </li>
+            </ul>
+            <div id="f-poweredbyico" style="float: right;">
+                <a href="http://www.mediawiki.org/">
+                    <img src="/wiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="MediaWiki" />
+                </a>
+                <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=176742&type=1"
+                        width="88" height="31" border="0" alt="Sourceforge.net Logo" />
+                </a>
+            </div>
+        </div> -->
+    </footer>
+</body>
+
 </html>
